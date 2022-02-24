@@ -1,0 +1,15 @@
+*.class
+.metadata/*
+*.classpath
+*.project
+*.prefs
+*/target/*
+/.metadata/
+/*/.settings/
+Servers/
+*.jar
+*.cmd
+/*/.gitignore
+/*/.mvn/*
+/*/mvnw
+
