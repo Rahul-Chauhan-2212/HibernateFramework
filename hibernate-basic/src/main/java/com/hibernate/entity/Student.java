@@ -13,6 +13,7 @@ public class Student {
 	private int id;
 	private String name;
 	private String college;
+	private Course course;
 
 	public int getId() {
 		return id;
@@ -38,9 +39,17 @@ public class Student {
 		this.college = college;
 	}
 
+	public Course getCourse() {
+		return course;
+	}
+
+	public void setCourse(Course course) {
+		this.course = course;
+	}
+
 	@Override
 	public String toString() {
-		return "Student [id=" + id + ", name=" + name + ", college=" + college + "]";
+		return "Student [id=" + id + ", name=" + name + ", college=" + college + ", course=" + course + "]";
 	}
 
 }
