@@ -11,7 +11,7 @@
 		<property name="connection.password">SpringStudent@123</property>
 		<property name="show_sql">true</property>
 		<property name="format_sql">false</property>
-		<property name="hbm2ddl.auto">update</property>
+		<property name="hbm2ddl.auto">create</property>
 		<mapping class="com.hibernate.entity.Student" />
 		<mapping class="com.hibernate.entity.Address" />
 		<mapping class="com.hibernate.entity.Question" />

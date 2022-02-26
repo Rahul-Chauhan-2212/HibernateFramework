@@ -1,9 +1,10 @@
 package com.hibernate.entity;
 
+import java.util.List;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToOne;
+import javax.persistence.OneToMany;
 
 @Entity
 public class Question {
@@ -11,9 +12,14 @@ public class Question {
 	@Id
 	private int question_id;
 	private String description;
-	@OneToOne
-	@JoinColumn(name = "answer_id")
-	private Answer answer;
+
+	/*
+	 * @OneToOne
+	 * 
+	 * @JoinColumn(name = "answer_id") private Answer answer;
+	 */
+	@OneToMany(mappedBy = "question")
+	private List<Answer> answer;
 
 	public int getQuestion_id() {
 		return question_id;
@@ -31,11 +37,16 @@ public class Question {
 		this.description = description;
 	}
 
-	public Answer getAnswer() {
+	/*
+	 * public Answer getAnswer() { return answer; }
+	 * 
+	 * public void setAnswer(Answer answer) { this.answer = answer; }
+	 */
+	public List<Answer> getAnswer() {
 		return answer;
 	}
 
-	public void setAnswer(Answer answer) {
+	public void setAnswer(List<Answer> answer) {
 		this.answer = answer;
 	}
 

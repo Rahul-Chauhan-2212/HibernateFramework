@@ -6,3 +6,5 @@
 4)Embeddable Objects
 5)Mapping
 i)OneToOne Mapping
+ii)OneToMany Mapping
+iii)ManyToOne Mapping
