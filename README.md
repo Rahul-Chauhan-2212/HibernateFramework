@@ -8,3 +8,4 @@
 i)OneToOne Mapping
 ii)OneToMany Mapping
 iii)ManyToOne Mapping
+iv)ManyToMany Mapping
