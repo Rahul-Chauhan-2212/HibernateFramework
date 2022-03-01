@@ -9,3 +9,5 @@ i)OneToOne Mapping
 ii)OneToMany Mapping
 iii)ManyToOne Mapping
 iv)ManyToMany Mapping
+v)Loading Lazy vs Eager
+vi)State - Transient, Persistent, Detached and Removed

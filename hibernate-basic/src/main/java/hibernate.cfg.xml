@@ -10,7 +10,7 @@
 		<property name="connection.username">springstudent</property>
 		<property name="connection.password">SpringStudent@123</property>
 		<property name="show_sql">true</property>
-		<property name="format_sql">false</property>
+		<property name="format_sql">true</property>
 		<property name="hbm2ddl.auto">update</property>
 		<mapping class="com.hibernate.entity.Student" />
 		<mapping class="com.hibernate.entity.Address" />
@@ -18,5 +18,7 @@
 		<mapping class="com.hibernate.entity.Answer" />
 		<mapping class="com.hibernate.entity.Project" />
 		<mapping class="com.hibernate.entity.Employee" />
+		<mapping class="com.hibernate.entity.Team" />
+		<mapping class="com.hibernate.entity.Member" />
 	</session-factory>
 </hibernate-configuration>
