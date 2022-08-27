@@ -1,13 +1,18 @@
 # HibernateFramework
 
-1)Hibernate Configuration XML
-2)Hibernate Common Annotations and DataTypes
-3)Fetching get vs load
-4)Embeddable Objects
-5)Mapping
-i)OneToOne Mapping
-ii)OneToMany Mapping
-iii)ManyToOne Mapping
-iv)ManyToMany Mapping
-v)Loading Lazy vs Eager
-vi)State - Transient, Persistent, Detached and Removed
+<ol>
+<li>Hibernate Configuration XML</li>
+<li>Hibernate Common Annotations and DataTypes</li>
+<li>Fetching get vs load</li>
+<li>Embeddable Objects</li>
+<li>Mapping
+<ol>
+<li>OneToOne Mapping</li>
+<li>OneToMany Mapping</li>
+<li>ManyToOne Mapping</li>
+<li>ManyToMany Mapping</li>
+<li>Loading Lazy vs Eager</li>
+<li>State - Transient, Persistent, Detached and Removed</li>
+</ol>
+</li>
+</ol>
